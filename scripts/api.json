@@ -1,0 +1,44 @@
+[{
+    "rating": 0,
+    "_id": "5b1c3c19570c20001da46a6b",
+    "title": "Motherborad",
+    "source": "https://img-9gag-fun.9cache.com/photo/aExXx3o_460s.jpg",
+    "user": "Dancikowski",
+    "date": "2018-06-09T20:44:09.098Z",
+    "comments": [{
+            "text": "Programmers be like",
+            "date": "2018-06-16T08:24:27.999Z",
+            "_id": "5b24c93b570c20001da46a9e",
+            "user": "MoFa"
+    },
+        {
+            "text": "W sumie logiczne",
+            "date": "2018-06-16T08:24:27.999Z",
+            "_id": "5b24c93b570c20001da46a9e",
+            "user": "Kordian"
+    }],
+    "__v": 0
+}, {
+    "rating": 0,
+    "_id": "5b1cc436570c20001da46a6c",
+    "title": "Lebron",
+    "source": "https://img-9gag-fun.9cache.com/photo/aBxXyyO_460s.jpg",
+    "user": "Dancikowski",
+    "date": "2018-06-10T06:24:54.477Z",
+    "comments": [],
+    "__v": 0
+}, {
+    "rating": 0,
+    "_id": "5b24b54d570c20001da46a9c",
+    "title": "Stack",
+    "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
+    "user": "Dancikowski",
+    "date": "2018-06-16T06:59:25.728Z",
+    "comments": [{
+        "text": "Hahha dokładie :D",
+        "date": "2018-06-16T07:06:54.053Z",
+        "_id": "5b24b70e570c20001da46a9d",
+        "user": "Marek"
+    }],
+    "__v": 0
+}]
