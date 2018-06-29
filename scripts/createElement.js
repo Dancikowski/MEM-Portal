@@ -1,24 +1,14 @@
 define(['addcom'], function (mod) {
-
-
-
-
-
-
     function create(el) {
 
-        // console.log(el);
         const title = el.title;
         const url = el.source;
         const user = el.user;
         const comment = el.comments;
-
         var newElement = prepareElement(title, url, comment);
-
         newElement.dataset.id = el._id;
 
-
-        return newElement;
+       return newElement;
     }
 
 
@@ -34,24 +24,7 @@ define(['addcom'], function (mod) {
         let opinionBar = document.createElement('div');
         opinionBar.classList.add('opinionBar');
         opinionBar.innerHTML =
-            /* ' <div class="rating"> ' +
-                    '<input type="radio" id="star5" name="star" value="5" />' +
-                    '<label for="star5">One star</label>' +
-
-                    '<input type="radio" id="star4" name="star" value="4" />' +
-                    '<label for="star4">Two star</label>' +
-
-                    '<input type="radio" id="star3" name="star" value="3" />' +
-                    '<label for="star3">Three star</label>' +
-
-                    '<input type="radio" id="star2" name="star" value="2" />' +
-                    '<label for="star2">Four star</label>' +
-
-                    '<input type="radio" id="star1" name="star" value="1" />' +
-                    '<label for="star1">Five star</label>' +
-
-
-                    '</div>' +*/
+           
             '<div class="rating">' +
             '<div class="like ratingButtons" data-id="like"><i class="fas fa-plus"></i></div>' +
             '<div class="dislike ratingButtons" data-id="dislike"><i class="fas fa-minus"></i></div>' +
@@ -75,22 +48,16 @@ define(['addcom'], function (mod) {
         })
         commnents.appendChild(onlyComent);
 
-
-
         commnents.innerHTML += '<div class="form">' +
 
             ' <form>' +
             ' <input type="text" id="fname" name="firstname" placeholder="Twój nick..">' +
             ' <textarea id="coment" name="coment" placeholder="Wpisz komentarz .."></textarea>' +
-
-
             '</form>' +
             '<button class="send">Wyślij</button>' +
             '</div>';
 
-
-
-        div.appendChild(commnents);
+       div.appendChild(commnents);
 
         return div;
 
