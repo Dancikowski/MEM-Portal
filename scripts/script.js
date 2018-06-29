@@ -3,8 +3,6 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
     $.getJSON('scripts/api.json', function (obj) {
 
     [].forEach.call(obj, function (element) {
-
-
             let newPhoto = mod.create(element);
             document.querySelector('#container').appendChild(newPhoto);
         })
@@ -23,13 +21,6 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
 
         })
 
-        console.log(obj[0].rating);
-
-
-
-
-
-
 
         const sends = document.querySelectorAll('.send');
            [].forEach.call(sends, function (el) {
@@ -42,9 +33,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
                 addcom.add(coment, val, user, true);
                 el.previousElementSibling.children[0].value = "";
                 el.previousElementSibling.children[1].value = "";
-
-
-            })
+           })
         });
 
         const hamburger = document.querySelector('.hamburger');
@@ -52,11 +41,6 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
         const btn = document.querySelector('.btn');
         const container = document.querySelector('#container');
         const singlePhoto = document.querySelector('.single-photo');
-
-
-
-
-
         const elements = document.querySelectorAll('.rating');
         console.log(elements);
 
@@ -75,15 +59,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
             })
         })
 
-
-
-
-
-
-
-
-
-        hamburger.addEventListener('click', function () {
+           hamburger.addEventListener('click', function () {
 
             menu.classList.toggle('active');
             container.classList.toggle('container-move');
