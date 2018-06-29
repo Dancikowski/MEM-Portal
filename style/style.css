@@ -1,10 +1,8 @@
 body {
     width: 99vw;
     height: 1000px;
-
     margin: 0;
     padding: 0;
-
     background: url('back.png') no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -87,20 +85,12 @@ body {
     font-size: 1.4vw;
     transition: all .3s ease-in-out;
     z-index: 3;
-
-
-
-
 }
 
 #main-menu.active {
 
     left: 0;
-
 }
-
-
-
 ul {
 
 
@@ -121,8 +111,6 @@ ul li {
     color: whitesmoke;
     text-transform: uppercase;
     margin: 20px 0;
-
-
 }
 
 ul li:hover {
@@ -141,8 +129,6 @@ ul li:hover {
     right: 50%;
     transition: all .3s ease-in-out;
     transform: translate(-50%, -50%);
-
-
 
 }
 
@@ -188,15 +174,13 @@ ul li:hover .line {
     left: 0%;
     transition: all .3s ease-in-out;
     padding-bottom: 10px;
-
-
 }
 
 
 .title {
 
     color: whitesmoke;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     padding: 35px 0;
 }
@@ -250,7 +234,7 @@ ul li:hover .line {
 h3 {
     margin-top: 1vh;
     color: aquamarine;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
@@ -277,10 +261,8 @@ h3 {
 }
 
 .coment {
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 
 
@@ -294,15 +276,11 @@ h3 {
     height: 0;
     transition: height 500ms ease-in-out;
     overflow: hidden;
-
 }
 
 .coments.inactive {
-
-
     height: auto;
     display: block;
-
 }
 
 .ratingButtons {
@@ -318,8 +296,6 @@ h3 {
     transition: all .2s ease;
 }
 
-
-
 .coment-text {
 
 
@@ -333,7 +309,6 @@ h3 {
 }
 
 .coment-text p {
-
     margin-left: .5vw;
     margin-right: 1.5vw;
     font-size: .8vw;
@@ -387,8 +362,6 @@ h3 {
     border-radius: 2px;
     border: none;
 
-
-
 }
 
 #fname {
@@ -413,7 +386,7 @@ h2 {
 
     color: whitesmoke;
     font-size: 20px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -435,7 +408,7 @@ figure {
 
 figcaption {
     color: whitesmoke;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 9px;
     overflow-wrap: break-word;
