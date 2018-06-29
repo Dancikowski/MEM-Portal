@@ -196,7 +196,7 @@ ul li:hover .line {
 .title {
 
     color: whitesmoke;
-    font-family: 'Montserrat Black';
+    font-family: 'Montserrat';
     font-size: 3em;
     padding: 35px 0;
 }
@@ -557,6 +557,7 @@ figcaption {
     .add-com {
 
         font-weight: 600;
+        font-size: 15px;
 
     }
 
