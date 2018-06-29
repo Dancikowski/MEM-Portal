@@ -27,14 +27,8 @@ define('addcom', function (addcom) {
         console.log(el);
         el.appendChild(single);
 
-
-
-    }
-
-
-
-
-    return {
+  }
+   return {
         add: add
 
     };
