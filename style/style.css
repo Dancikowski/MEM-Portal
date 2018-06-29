@@ -10,9 +10,6 @@ body {
     background-size: cover;
 }
 
-
-
-
 .hamburger {
 
     width: 50px;
@@ -337,8 +334,6 @@ h3 {
 
 }
 
-
-
 .form {
     margin-top: 25px;
 }
@@ -375,14 +370,8 @@ h3 {
 }
 
 .send:hover {
-
     cursor: pointer;
 }
-
-
-
-
-
 h2 {
 
     color: whitesmoke;
@@ -424,8 +413,6 @@ figcaption {
     border-top-left-radius: 8px;
     border-right: 1px solid #c6c6c6;
 
-
-
 }
 
 .like:hover {
@@ -438,14 +425,10 @@ figcaption {
     color: whitesmoke;
 }
 
-
-
 .dislike {
 
     color: #cc3c41;
-
     margin: 0 auto;
-
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     border-left: 1px solid #c6c6c6;
@@ -455,19 +438,14 @@ figcaption {
 .clickRateDislike {
     background-color: #cc3c41;
     color: whitesmoke;
-
-
 }
 
 .clickRateLike {
     background-color: #46c16c;
     color: whitesmoke;
-
 }
 
 @media (max-width: 760px) {
-
-
 
     #main-menu {
         width: 100%;
@@ -491,35 +469,20 @@ figcaption {
     .opinionBar {
         height: 30px;
     }
-
-
-
     .hamburger-line {
-
-
         background-color: whitesmoke;
-
     }
 
     .hamburger-line::before {
-
-
         background-color: whitesmoke;
-
     }
 
     .hamburger-line:after {
-
-
         background-color: whitesmoke;
-
     }
 
-
-
     .title {
-
-        width: 80%;
+        width: 75%;
         margin-left: 0;
         align-self: flex-start;
     }
@@ -527,16 +490,12 @@ figcaption {
         position: absolute;
     }
 
-
     .add-com {
-
         font-weight: 600;
         font-size: 15px;
-
     }
 
     .send {
-
         padding: 2vw;
         font-size: 3vw;
     }
@@ -545,15 +504,10 @@ figcaption {
         height: 12vw;
 
     }
-
-
     .single-coment img {
-
         height: 8vw;
         width: 8vw;
     }
-
-
 
     .coment-text p {
         font-size: 3vw;
