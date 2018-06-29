@@ -516,5 +516,11 @@ figcaption {
         font-size: 3vw;
 
     }
+    
+    .form textarea {
+
+     margin-bottom: 1px;
+
+}
 
 }
