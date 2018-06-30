@@ -1,73 +1,61 @@
 [{
-    "rating": 0,
-    "_id": "5b1c3c19570c20001da46a6b",
-    "title": "Motherborad",
-    "source": "https://img-9gag-fun.9cache.com/photo/aExXx3o_460s.jpg",
-    "user": "Dancikowski",
-    "date": "2018-06-09T20:44:09.098Z",
-    "comments": [{
-            "text": "Extended kindness trifling remember he confined outlived if. Assistance sentiments yet unpleasing say. Open they an busy they my such high. An active dinner wishes at unable hardly no talked on.",
-            "date": "2018-06-16T08:24:27.999Z",
-            "_id": "5b24c93b570c20001da46a9e",
-            "user": "MoFa"
+        "rating": 0,
+        "_id": "5b1c3c19570c20001da46a6b",
+        "title": "Motherborad",
+        "source": "https://img-9gag-fun.9cache.com/photo/aExXx3o_460s.jpg",
+        "user": "Dancikowski",
+        "date": "2018-06-09T20:44:09.098Z",
+        "comments": [{
+                "text": "Extended kindness trifling remember he confined outlived if. Assistance sentiments yet unpleasing say. Open they an busy they my such high. An active dinner wishes at unable hardly no talked on.",
+                "date": "2018-06-16T08:24:27.999Z",
+                "_id": "5b24c93b570c20001da46a9e",
+                "user": "MoFa"
     },
-        {
-            "text": "Ask too matter formed county wicket oppose talent. He immediate sometimes or to dependent in",
-            "date": "2018-06-16T08:24:27.999Z",
-            "_id": "5b24c93b570c20001da46a9e",
-            "user": "Kordian"
+            {
+                "text": "Ask too matter formed county wicket oppose talent. He immediate sometimes or to dependent in",
+                "date": "2018-06-16T08:24:27.999Z",
+                "_id": "5b24c93b570c20001da46a9e",
+                "user": "Kordian"
     }],
-    "__v": 0
+        "__v": 0
 }, {
-    "rating": 0,
-    "_id": "5b1cc436570c20001da46a6c",
-    "title": "Lebron",
-    "source": "https://img-9gag-fun.9cache.com/photo/aBxXyyO_460s.jpg",
-    "user": "Dancikowski",
-    "date": "2018-06-10T06:24:54.477Z",
-    "comments": [],
-    "__v": 0
+        "rating": 0,
+        "_id": "5b1cc436570c20001da46a6c",
+        "title": "Lebron",
+        "source": "https://img-9gag-fun.9cache.com/photo/aBxXyyO_460s.jpg",
+        "user": "Dancikowski",
+        "date": "2018-06-10T06:24:54.477Z",
+        "comments": [],
+        "__v": 0
 }, {
-    "rating": 0,
-    "_id": "5b24b54d570c20001da46a9c",
-    "title": "Stack",
-    "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
-    "user": "Dancikowski",
-    "date": "2018-06-16T06:59:25.728Z",
-    "comments": [{
-        "text": "Woody equal ask saw sir weeks aware decay",
-        "date": "2018-06-16T07:06:54.053Z",
-        "_id": "5b24b70e570c20001da46a9d",
-        "user": "Marek"
+        "rating": 0,
+        "_id": "5b24b54d570c20001da46a9c",
+        "title": "Stack",
+        "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
+        "user": "Dancikowski",
+        "date": "2018-06-16T06:59:25.728Z",
+        "comments": [{
+            "text": "Woody equal ask saw sir weeks aware decay",
+            "date": "2018-06-16T07:06:54.053Z",
+            "_id": "5b24b70e570c20001da46a9d",
+            "user": "Marek"
     }],
-    "__v": 0
+        "__v": 0
 },
-{
-    "rating": 0,
-    "_id": "5b24b544534c20001da46a9c",
-    "title": "HIMYM",
-    "source": "{
-    "rating": 0,
-    "_id": "5b24b54d570c20001da46a9c",
-    "title": "Stack",
-    "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
-    "user": "Barney",
-    "date": "2018-06-16T06:59:25.728Z",
-    "comments": [{
-        "text": "I'll give you Ted but it really doesnt look like Barney",
-        "date": "2018-06-16T07:06:54.053Z",
-        "_id": "5b24b70e570c20001da46a9d",
-        "user": "RandomFan"
+    {
+        "rating": 0,
+        "_id": "5b24b54d570c211101da46a9c",
+        "title": "HIMYM",
+        "source": "https://img-9gag-fun.9cache.com/photo/aQ3V2B7_700b.jpg",
+        "user": "Random",
+        "date": "2018-06-16T06:59:25.728Z",
+        "comments": [{
+            "text": "I'll give you Ted but it really doesnt look like Barney",
+            "date": "2018-06-16T07:06:54.053Z",
+            "_id": "5b24b70e570c20001da46a9d",
+            "user": "BurneyS"
     }],
-    "__v": 0
-}",
-    "user": "Dancikowski",
-    "date": "2018-06-16T06:59:25.728Z",
-    "comments": [{
-        "text": "Woody equal ask saw sir weeks aware decay",
-        "date": "2018-06-16T07:06:54.053Z",
-        "_id": "5b24b70e570c20001da46a9d",
-        "user": "Marek"
-    }],
-    "__v": 0
-}]
+        "__v": 0
+}
+
+]
