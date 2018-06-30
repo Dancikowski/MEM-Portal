@@ -41,4 +41,33 @@
         "user": "Marek"
     }],
     "__v": 0
+},
+{
+    "rating": 0,
+    "_id": "5b24b544534c20001da46a9c",
+    "title": "HIMYM",
+    "source": "{
+    "rating": 0,
+    "_id": "5b24b54d570c20001da46a9c",
+    "title": "Stack",
+    "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
+    "user": "Barney",
+    "date": "2018-06-16T06:59:25.728Z",
+    "comments": [{
+        "text": "I'll give you Ted but it really doesnt look like Barney",
+        "date": "2018-06-16T07:06:54.053Z",
+        "_id": "5b24b70e570c20001da46a9d",
+        "user": "RandomFan"
+    }],
+    "__v": 0
+}",
+    "user": "Dancikowski",
+    "date": "2018-06-16T06:59:25.728Z",
+    "comments": [{
+        "text": "Woody equal ask saw sir weeks aware decay",
+        "date": "2018-06-16T07:06:54.053Z",
+        "_id": "5b24b70e570c20001da46a9d",
+        "user": "Marek"
+    }],
+    "__v": 0
 }]
