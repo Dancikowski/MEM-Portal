@@ -28,12 +28,28 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
 
             el.addEventListener('click', function (event) {
                 const coment = el.parentNode.parentNode.firstChild;
-                const val = el.parentNode.children[0].children[1].value;
+                const val = el.parentNode.children[0].children[2].value;
                 const user = el.parentNode.children[0].children[0].value;
                 const singlePhoto = coment.parentNode.parentElement;
-                addcom.add(coment, val, user, true);
-                el.previousElementSibling.children[0].value = "";
-                el.previousElementSibling.children[1].value = "";
+                console.log(el.parentNode);
+
+                if (user.length == 0) {
+
+                    el.parentNode.querySelector('#userError').style.display = "inline-block";
+
+                } else if (val.length == 0) {
+                    //$('#userError').css('display': 'block');
+                    el.parentNode.querySelector('#contentError').style.display = "inline-block";
+
+
+
+                } else {
+                    el.parentNode.querySelector('#userError').style.display = "none";
+                    el.parentNode.querySelector('#contentError').style.display = "none";
+                    addcom.add(coment, val, user, true);
+                    el.previousElementSibling.children[0].value = "";
+                    el.previousElementSibling.children[2].value = "";
+                }
             })
         });
 

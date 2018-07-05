@@ -349,7 +349,7 @@ ul li:hover .line {
     border-radius: 5px;
     height: 7vw;
     margin-bottom: 5px;
-    font-family: 'Montserrat';
+    font-family: 'Arial';
 
 }
 
@@ -373,6 +373,27 @@ ul li:hover .line {
     margin-bottom: 2px;
 
     font-size: 13px;
+}
+
+
+#userError {
+    color: #ef2d2d;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+    display: none;
+    font-size: 11px;
+    font-weight: 600;
+
+
+}
+
+#contentError {
+    display: none;
+    color: #ef2d2d;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .send:hover {
