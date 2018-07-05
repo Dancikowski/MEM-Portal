@@ -3,6 +3,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
     $.getJSON('scripts/api.json', function (obj) {
 
     [].forEach.call(obj, function (element) {
+
             let newPhoto = mod.create(element);
             document.querySelector('#container').appendChild(newPhoto);
         })
@@ -14,7 +15,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
             el.addEventListener('click', function (event) {
                 event.preventDefault();
                 const kom = el.parentNode.nextElementSibling;
-               
+
                 toggle.toggle(kom);
 
             });
@@ -33,7 +34,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
                 addcom.add(coment, val, user, true);
                 el.previousElementSibling.children[0].value = "";
                 el.previousElementSibling.children[1].value = "";
-           })
+            })
         });
 
         const hamburger = document.querySelector('.hamburger');
@@ -42,28 +43,59 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
         const container = document.querySelector('#container');
         const singlePhoto = document.querySelector('.single-photo');
         const elements = document.querySelectorAll('.rating');
-        
 
-                [].forEach.call(elements, function (ele) {
-            ele.addEventListener('click', function (event) {
+        function addRate(event, ele) {
 
+            if (ele.getAttribute('disabled') == "disable") {
                 if (event.target.dataset.id == "dislike") {
-                    document.querySelector('.like').classList.remove('clickRateLike');
-                    event.target.classList.toggle('clickRateDislike');
+                    [].forEach.call(obj, function (a) {
+
+                        if (a._id == ele.parentNode.parentElement.dataset.id) {
+                            a.rating -= 1;
+                            ele.nextElementSibling.textContent = a.rating > 0 ? '+' + a.rating : a.rating;
+                        }
+                    })
+                    event.target.classList.add('clickRateDislike');
+                    ele.nextElementSibling.style.display = "block";
+
 
                 } else {
-                    document.querySelector('.dislike').classList.remove('clickRateDislike');
-                    event.target.classList.toggle('clickRateLike');
+                    [].forEach.call(obj, function (a) {
+
+                        if (a._id == ele.parentNode.parentElement.dataset.id) {
+                            a.rating += 1;
+                            ele.nextElementSibling.textContent = a.rating > 0 ? '+' + a.rating : a.rating;
+                        }
+                    })
+
+                    event.target.classList.add('clickRateLike');
+                    ele.nextElementSibling.style.display = "block";
+
                 }
 
+                ele.setAttribute('disabled', 'enable');
+            }
+
+
+        }
+
+         [].forEach.call(elements, function (ele) {
+
+            ele.addEventListener('click', function (event) {
+
+                addRate(event, ele);
             })
+
+
+
+
         })
 
-           hamburger.addEventListener('click', function () {
+        hamburger.addEventListener('click', function () {
 
             menu.classList.toggle('active');
             container.classList.toggle('container-move');
-           
+
 
         });
 

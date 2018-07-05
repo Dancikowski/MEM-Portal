@@ -23,12 +23,11 @@ define('addcom', function (addcom) {
         single.appendChild(figure);
         single.appendChild(text);
 
-        console.log(single);
-        console.log(el);
+
         el.appendChild(single);
 
-  }
-   return {
+    }
+    return {
         add: add
 
     };

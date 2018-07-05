@@ -1,5 +1,5 @@
 [{
-        "rating": 0,
+        "rating": 30,
         "_id": "5b1c3c19570c20001da46a6b",
         "title": "Motherborad",
         "source": "https://img-9gag-fun.9cache.com/photo/aExXx3o_460s.jpg",
@@ -19,7 +19,7 @@
     }],
         "__v": 0
 }, {
-        "rating": 0,
+        "rating": 10,
         "_id": "5b1cc436570c20001da46a6c",
         "title": "Lebron",
         "source": "https://img-9gag-fun.9cache.com/photo/aBxXyyO_460s.jpg",
@@ -28,7 +28,7 @@
         "comments": [],
         "__v": 0
 }, {
-        "rating": 0,
+        "rating": -1,
         "_id": "5b24b54d570c20001da46a9c",
         "title": "Stack",
         "source": "https://img-9gag-fun.9cache.com/photo/aBxXmLO_460s.jpg",
@@ -43,7 +43,7 @@
         "__v": 0
 },
     {
-        "rating": 0,
+        "rating": 36,
         "_id": "5b24b54d570c211101da46a9c",
         "title": "HIMYM",
         "source": "https://img-9gag-fun.9cache.com/photo/aQ3V2B7_700b.jpg",

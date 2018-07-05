@@ -8,7 +8,7 @@ define(['addcom'], function (mod) {
         var newElement = prepareElement(title, url, comment);
         newElement.dataset.id = el._id;
 
-       return newElement;
+        return newElement;
     }
 
 
@@ -24,12 +24,12 @@ define(['addcom'], function (mod) {
         let opinionBar = document.createElement('div');
         opinionBar.classList.add('opinionBar');
         opinionBar.innerHTML =
-           
-            '<div class="rating">' +
+
+            '<div class="rating" disabled="disable">' +
             '<div class="like ratingButtons" data-id="like"><i class="fas fa-plus"></i></div>' +
             '<div class="dislike ratingButtons" data-id="dislike"><i class="fas fa-minus"></i></div>' +
             '</div>' +
-            '<h3>OK</h3>' +
+            '<p>OK</p>' +
             '<button class="add-com">Dodaj komentarz</button>';
 
         div.appendChild(h1);
@@ -57,7 +57,7 @@ define(['addcom'], function (mod) {
             '<button class="send">Wyślij</button>' +
             '</div>';
 
-       div.appendChild(commnents);
+        div.appendChild(commnents);
 
         return div;
 

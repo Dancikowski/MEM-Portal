@@ -88,6 +88,7 @@ body {
 
     left: 0;
 }
+
 ul {
 
 
@@ -229,14 +230,16 @@ ul li:hover .line {
     color: #3b3b3b;
 }
 
-h3 {
-    margin-top: 1vh;
-    color: aquamarine;
+.opinionBar p {
+
+    color: #8285be;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
     display: none;
+
+
 }
 
 
@@ -329,10 +332,12 @@ h3 {
 .rating {
     display: flex;
     flex-direction: row;
-    width: 35%;
+    width: 32%;
     height: auto;
 
 }
+
+
 
 .form {
     margin-top: 25px;
@@ -365,13 +370,14 @@ h3 {
     border: 0px;
     padding: 2px;
     margin-bottom: 2px;
-    
+
     font-size: 13px;
 }
 
 .send:hover {
     cursor: pointer;
 }
+
 h2 {
 
     color: whitesmoke;
@@ -516,11 +522,11 @@ figcaption {
         font-size: 3vw;
 
     }
-    
+
     .form textarea {
 
-     margin-bottom: 1px;
+        margin-bottom: 1px;
 
-}
+    }
 
 }
