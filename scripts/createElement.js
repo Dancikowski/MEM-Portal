@@ -54,7 +54,7 @@ define(['addcom'], function (mod) {
             ' <input type="text" id="fname" name="firstname" placeholder="Twój nick.."><span id="userError">Wpisz nazwę użytkownika</span>' +
             ' <textarea id="coment" name="coment" placeholder="Wpisz komentarz .." ></textarea>' +
             '</form>' +
-            '<input type="submit" value="Wyślij" class="send"></input><span id="contentError">Wpisz treść</span>' +
+            '<button class="send">Wyślij</button><span id="contentError">Wpisz treść</span>' +
             '</div>';
 
         div.appendChild(commnents);
