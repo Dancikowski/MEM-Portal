@@ -1,10 +1,5 @@
 body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+   
     width: 99vw;
     height: 1000px;
     margin: 0;
