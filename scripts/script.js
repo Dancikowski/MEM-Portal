@@ -14,7 +14,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
             el.addEventListener('click', function (event) {
                 event.preventDefault();
                 const kom = el.parentNode.nextElementSibling;
-                console.log(kom);
+               
                 toggle.toggle(kom);
 
             });
@@ -42,7 +42,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
         const container = document.querySelector('#container');
         const singlePhoto = document.querySelector('.single-photo');
         const elements = document.querySelectorAll('.rating');
-        console.log(elements);
+        
 
                 [].forEach.call(elements, function (ele) {
             ele.addEventListener('click', function (event) {
@@ -63,7 +63,7 @@ require(['createElement', 'toggle', 'addcom'], function (mod, toggle, addcom) {
 
             menu.classList.toggle('active');
             container.classList.toggle('container-move');
-            console.log("Add meme");
+           
 
         });
 
